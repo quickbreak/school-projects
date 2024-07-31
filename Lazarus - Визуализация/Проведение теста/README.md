@@ -1,0 +1,5 @@
+![demo1](https://github.com/quickbreak/school_projects/blob/main/Lazarus%20-%20Визуализация/Проведение%20теста/Демонстрация_1.jpg)
+![demo2](https://github.com/quickbreak/school_projects/blob/main/Lazarus%20-%20Визуализация/Проведение%20теста/Демонстрация_2.jpg)
+![demo3](https://github.com/quickbreak/school_projects/blob/main/Lazarus%20-%20Визуализация/Проведение%20теста/Демонстрация_3.jpg)
+![demo4](https://github.com/quickbreak/school_projects/blob/main/Lazarus%20-%20Визуализация/Проведение%20теста/Демонстрация_4.jpg)
+![demo5](https://github.com/quickbreak/school_projects/blob/main/Lazarus%20-%20Визуализация/Проведение%20теста/Демонстрация_5.jpg)
