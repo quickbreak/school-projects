@@ -1,0 +1,253 @@
+object Form1: TForm1
+  Left = 253
+  Height = 762
+  Top = 151
+  Width = 934
+  Caption = 'Form1'
+  ClientHeight = 742
+  ClientWidth = 934
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '2.2.4.0'
+  object Image1: TImage
+    Left = 64
+    Height = 650
+    Top = 45
+    Width = 650
+    OnMouseDown = Image1MouseDown
+    OnMouseMove = Image1MouseMove
+    OnMouseUp = Image1MouseUp
+  end
+  object RadioButton1: TRadioButton
+    Left = 752
+    Height = 26
+    Top = 45
+    Width = 75
+    Caption = 'Отрезок'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -18
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+  object RadioButton2: TRadioButton
+    Left = 752
+    Height = 26
+    Top = 80
+    Width = 124
+    Caption = 'Прямоугольник'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -18
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 1
+  end
+  object RadioButton3: TRadioButton
+    Left = 752
+    Height = 26
+    Top = 120
+    Width = 56
+    Caption = 'Овал'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -18
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+  end
+  object RadioButton4: TRadioButton
+    Left = 752
+    Height = 26
+    Top = 160
+    Width = 59
+    Caption = 'Кисть'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -18
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 3
+  end
+  object RadioButton5: TRadioButton
+    Left = 752
+    Height = 26
+    Top = 200
+    Width = 66
+    Caption = 'Ластик'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -18
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 4
+  end
+  object CheckBox1: TCheckBox
+    Left = 752
+    Height = 26
+    Top = 240
+    Width = 116
+    Caption = 'Только контур'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -18
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Image2: TImage
+    Left = 752
+    Height = 40
+    Top = 288
+    Width = 40
+    OnClick = Image2Click
+    ParentShowHint = False
+  end
+  object Image3: TImage
+    Left = 752
+    Height = 40
+    Top = 344
+    Width = 40
+    OnClick = Image3Click
+  end
+  object Label1: TLabel
+    Left = 816
+    Height = 44
+    Top = 288
+    Width = 69
+    Caption = 'Цвет'#13#10'рисующий'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -18
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 816
+    Height = 44
+    Top = 344
+    Width = 36
+    Caption = 'Цвет'#13#10'фона'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -18
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object ListBox1: TListBox
+    Left = 752
+    Height = 113
+    Top = 416
+    Width = 40
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clTeal
+    Font.Height = -18
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Items.Strings = (
+      '2'
+      '4'
+      '6'
+      '8'
+      '10'
+      '12'
+      '14'
+      '16'
+      '18'
+      '20'
+    )
+    ItemHeight = 22
+    ItemIndex = 0
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Button1: TButton
+    Left = 752
+    Height = 25
+    Top = 616
+    Width = 75
+    Caption = 'Очистить'
+    OnClick = Button1Click
+    TabOrder = 7
+  end
+  object RadioButton6: TRadioButton
+    Left = 752
+    Height = 26
+    Top = 568
+    Width = 136
+    Caption = 'Стереть область'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -18
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 8
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 186
+    Top = 32
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 250
+    Top = 32
+  end
+  object ColorDialog1: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    Left = 301
+    Top = 32
+  end
+  object MainMenu1: TMainMenu
+    Left = 25
+    Top = 27
+    object MenuItem1: TMenuItem
+      Caption = 'Файл'
+      object MenuItem2: TMenuItem
+        Caption = 'Создать'
+        OnClick = MenuItem2Click
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'Открыть'
+        OnClick = MenuItem5Click
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'Сохранить'
+        OnClick = MenuItem4Click
+      end
+    end
+  end
+end

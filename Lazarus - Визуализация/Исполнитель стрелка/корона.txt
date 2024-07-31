@@ -1,0 +1,13 @@
+step 50
+turn 120
+step 50
+turn -90
+step 50
+turn 120
+step 50
+turn -90
+step 50
+turn 120
+step 50
+turn 90
+step 133

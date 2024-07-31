@@ -1,0 +1,150 @@
+object Form1: TForm1
+  Left = 290
+  Height = 628
+  Top = 39
+  Width = 685
+  Caption = 'Form1'
+  ClientHeight = 628
+  ClientWidth = 685
+  Color = 13610512
+  OnCreate = FormCreate
+  LCLVersion = '2.0.2.0'
+  object Label1: TLabel
+    Left = 55
+    Height = 37
+    Top = 15
+    Width = 193
+    Caption = 'Имя участника'
+    Color = clForm
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -32
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object Edit1: TEdit
+    Left = 55
+    Height = 39
+    Top = 64
+    Width = 318
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -27
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 55
+    Height = 261
+    Top = 112
+    Width = 595
+    BorderStyle = bsNone
+    Color = clForm
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -24
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      ''
+    )
+    ParentFont = False
+    TabOrder = 1
+    Visible = False
+  end
+  object Button1: TButton
+    Left = 81
+    Height = 387
+    Top = 165
+    Width = 527
+    Caption = 'Начать'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -35
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 55
+    Height = 70
+    Top = 395
+    Width = 225
+    Caption = 'A'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -37
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 3
+    Visible = False
+  end
+  object Button3: TButton
+    Left = 348
+    Height = 70
+    Top = 395
+    Width = 225
+    Caption = 'B'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -37
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 4
+    Visible = False
+  end
+  object Button4: TButton
+    Left = 55
+    Height = 70
+    Top = 496
+    Width = 225
+    Caption = 'C'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -37
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button4Click
+    ParentFont = False
+    TabOrder = 5
+    Visible = False
+  end
+  object Button5: TButton
+    Left = 348
+    Height = 70
+    Top = 496
+    Width = 225
+    Caption = 'D'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -37
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button5Click
+    ParentFont = False
+    TabOrder = 6
+    Visible = False
+  end
+  object OpenDialog1: TOpenDialog
+    left = 754
+    top = 189
+  end
+end

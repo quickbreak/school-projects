@@ -1,0 +1,14 @@
+step 50
+turn 60
+step 50
+turn 60
+step 50
+turn 60
+step 50
+turn 60
+step 50
+turn 60
+step 50
+turn 60
+step 50
+turn 60

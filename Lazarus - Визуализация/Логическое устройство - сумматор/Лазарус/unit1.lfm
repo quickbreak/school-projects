@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 402
+  Height = 600
+  Top = 47
+  Width = 720
+  Caption = 'Form1'
+  ClientHeight = 600
+  ClientWidth = 720
+  OnCreate = FormCreate
+  LCLVersion = '2.2.4.0'
+  object Button1: TButton
+    Left = 10
+    Height = 26
+    Top = 141
+    Width = 89
+    Caption = 'Вычислить'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 5
+    Height = 15
+    Top = 107
+    Width = 7
+    Caption = 'В'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 27
+    Height = 23
+    Top = 105
+    Width = 46
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 5
+    Height = 15
+    Top = 74
+    Width = 8
+    Caption = 'А'
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    Left = 27
+    Height = 23
+    Top = 74
+    Width = 46
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 647
+    Height = 15
+    Top = 74
+    Width = 7
+    Caption = 'Р'
+    ParentColor = False
+  end
+  object Edit3: TEdit
+    Left = 669
+    Height = 23
+    Top = 74
+    Width = 46
+    TabOrder = 3
+  end
+  object Edit4: TEdit
+    Left = 669
+    Height = 23
+    Top = 282
+    Width = 46
+    TabOrder = 4
+  end
+  object Label4: TLabel
+    Left = 648
+    Height = 15
+    Top = 290
+    Width = 6
+    Caption = 'S'
+    ParentColor = False
+  end
+  object Image1: TImage
+    Left = 115
+    Height = 400
+    Top = 21
+    Width = 500
+  end
+end

@@ -1,0 +1,210 @@
+object Form1: TForm1
+  Left = 303
+  Height = 634
+  Top = 121
+  Width = 674
+  Caption = 'Form1'
+  ClientHeight = 634
+  ClientWidth = 674
+  OnCreate = FormCreate
+  LCLVersion = '2.0.2.0'
+  object Image1: TImage
+    Left = 35
+    Height = 400
+    Top = 60
+    Width = 400
+  end
+  object Edit1: TEdit
+    Left = 484
+    Height = 23
+    Top = 60
+    Width = 180
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 449
+    Height = 23
+    Top = 60
+    Width = 20
+    Caption = 'Ax'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 449
+    Height = 23
+    Top = 92
+    Width = 20
+    Caption = 'Ay'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 449
+    Height = 23
+    Top = 121
+    Width = 20
+    Caption = 'Bx'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 449
+    Height = 23
+    Top = 150
+    Width = 20
+    Caption = 'By'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 449
+    Height = 23
+    Top = 181
+    Width = 21
+    Caption = 'Ox'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 449
+    Height = 23
+    Top = 213
+    Width = 21
+    Caption = 'Oy'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 449
+    Height = 23
+    Top = 245
+    Width = 11
+    Caption = 'R'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit2: TEdit
+    Left = 484
+    Height = 23
+    Top = 92
+    Width = 180
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 484
+    Height = 23
+    Top = 121
+    Width = 180
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 484
+    Height = 23
+    Top = 150
+    Width = 180
+    TabOrder = 3
+  end
+  object Edit5: TEdit
+    Left = 484
+    Height = 23
+    Top = 181
+    Width = 180
+    TabOrder = 4
+  end
+  object Edit6: TEdit
+    Left = 484
+    Height = 23
+    Top = 213
+    Width = 180
+    TabOrder = 5
+  end
+  object Edit7: TEdit
+    Left = 484
+    Height = 23
+    Top = 245
+    Width = 180
+    TabOrder = 6
+  end
+  object Button1: TButton
+    Left = 484
+    Height = 53
+    Top = 292
+    Width = 169
+    Caption = 'Showme!'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Edit8: TEdit
+    Left = 449
+    Height = 33
+    Top = 374
+    Width = 178
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+  end
+end
